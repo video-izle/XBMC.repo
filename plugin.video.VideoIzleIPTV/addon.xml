@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon
-        id="plugin.video.VideoIzleIPTV" 
-        name="VideoIzleIPTV" 
-        version="0.0.2" 
-        provider-name="VideoIzleIPTV">
-		<requires>
-			<import addon="xbmc.python"             	version="2.1.0"/>
-			<import addon="script.module.buggalo"   	version="1.1.5" />
-			<import addon="xbmc.addon"              	version="12.1.0"/>
-			<import addon="script.module.urlresolver"	version="1.1.0"/>
-			<import addon="script.module.simplejson"	version="2.0.10"/>
-            <import addon="script.module.addon.common"  version="2.0.0"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="IPTV.py">
-			<provides>video</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">VideoIzleIPTV</summary>
-			<description lang="en">VideoIzleIPTV</description>
-			<disclaimer lang="en">VideoIzleIPTV</disclaimer>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2014</license>
-			<language>en</language>
-			<website>http://www.XX</website>
-			<email></email>
-			<source>https://XX</source>
-		</extension>
-	</addon>
+<addon id="plugin.video.VideoIzleIPTV"
+       name="[COLOR beige]Video-izle.[/COLOR][COLOR red]TV[/COLOR]"
+       version="0.0.1"
+       provider-name="VideoIzleIPTV Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.pil"/>
+	  </requires>
+  <extension point="xbmc.python.pluginsource" provides="video" library="IPTV.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>VideoIzleIPTV Beta</summary>
+    <description>http://www.video-izle.tv</description>
+
+    <platform>all</platform>
+  </extension>
+</addon>

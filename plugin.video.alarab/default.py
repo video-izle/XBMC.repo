@@ -12,7 +12,7 @@ _pluginName = (sys.argv[0])
 
 
 def CATEGORIES():
-	addDir("AFLAM ARAB","http://tv1.alarab.net/view-1_%D8%A7%D9%81%D9%84%D8%A7%D9%85-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_1",1,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("IPTV","http://www.video-izle.tv/kodi/xml/TR.xml",1,"http://wadeni.com/images/icons/0alarab-net.jpg")
 	addDir("SERIE ARAB","http://tv1.alarab.net/view-1_%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_8",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
 	addDir("SERIE AJNABI","http://tv1.alarab.net/view-1_%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D8%A7%D8%AC%D9%86%D8%A8%D9%8A%D8%A9_1951",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
 	addDir("SERIE TURKI","http://tv1.alarab.net/view-1_%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D8%AA%D8%B1%D9%83%D9%8A%D8%A9_299",2,"http://wadeni.com/images/icons/0alarab-net.jpg")

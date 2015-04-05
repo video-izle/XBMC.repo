@@ -52,7 +52,7 @@ def add_video_item(url, infolabels, img=''):
 def playginico():
     xbmcPlayer = xbmc.Player()
     idx = mode.replace("?playtrk=", "").replace("###", "|").replace("#x#", "?").replace("#h#", "http://").split('***')
-    xbmc.executebuiltin('XBMC.Notification('+idx[1]+' , einen Moment der Sender wird geladen ,5000,'+idx[2]+')')
+    xbmc.executebuiltin('XBMC.Notification('+idx[1]+' , Kanal yükleniyor... Lütfen bekleyin ,5000,'+idx[2]+')')
     listitem = xbmcgui.ListItem( idx[1], iconImage=idx[2], thumbnailImage=idx[2])
     playlist = xbmc.PlayList( xbmc.PLAYLIST_VIDEO )
     playlist.clear()

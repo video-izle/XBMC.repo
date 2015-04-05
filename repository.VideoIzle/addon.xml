@@ -2,7 +2,7 @@
 	<addon 
         id="repository.VideoIzle" 
         name="VideoIzle Repository" 
-        version="0.0.2" 
+        version="0.0.3" 
         provider-name="VideoIzle">
 		<extension point="xbmc.addon.repository" name="VideoIzle Repository">
 			<info compressed="false">https://raw.github.com/video-izle/XBMC.repo/master/addons.xml</info>

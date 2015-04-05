@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.VideoIzleIPTV-DE" name="VideoIzleIPTV Almanca" version="0.0.2" provider-name="VideoIzleIPTV">
+<addon id="plugin.video.VideoIzleIPTV-DE" name="[COLOR beige]Video-izle.[/COLOR][COLOR red]TV-Almanca[/COLOR]" version="0.0.2" provider-name="VideoIzleIPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>

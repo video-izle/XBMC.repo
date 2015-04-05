@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# please visit http://www.iptvxtra.net
+# please visit 
 
 import xbmc,xbmcgui,xbmcplugin,sys
-icons = xbmc.translatePath("special://home/addons/plugin.video.iptvxtra-trtv/resources/icons/")
-icon = xbmc.translatePath("special://home/addons/plugin.video.iptvxtra-trtv/icon.png")
+icons = xbmc.translatePath("special://home/addons/plugin.video.VideoIzleIPTV-DE/resources/icons/")
+icon = xbmc.translatePath("special://home/addons/plugin.video.VideoIzleIPTV-DE/icon.png")
 plugin_handle = int(sys.argv[1])
 mode = sys.argv[2]
 

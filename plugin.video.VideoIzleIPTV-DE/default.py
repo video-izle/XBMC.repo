@@ -64,11 +64,11 @@ def playginico():
 
 def main():
     add_video_item('http://origin.live.web.tv.streamprovider.net/streams/7acfc999bbde179fc45f18506125345f_live_0_0/index.m3u8',{ 'title': 'Star TV'}, icons + '83.png')
-    add_video_item('http://bit.do/Showtv',{ 'title': 'Show TV'}, icons + '96.png')
-    add_video_item('http://bit.do/kanalfox',{ 'title': 'Fox TV'}, icons + '195.png')
-    add_video_item('http://hd.yayin3.canlitv.mobi:7777/TV8_HD/TV8_High.m3u8',{ 'title': 'TV 8'}, icons + 'tv8.png')
-    add_video_item('http://nimlive1.giniko.com/kanald/kanald.stream/playlist.m3u8---85xxx',{ 'title': 'Kanal D'}, icons + '85.png')
-    add_video_item('http://nimlive1.giniko.com/atvtv/atvtvtv.stream/playlist.m3u8---98xxx',{ 'title': 'a TV'}, icons + '98.png')
+    add_video_item('http://mn-l.mncdn.com/showtv/showtv2/playlist.m3u8',{ 'title': 'Show TV'}, icons + '96.png')
+    add_video_item('http://yayin5.canlitv.com:1935/live/foxtv/live.m3u8',{ 'title': 'Fox TV'}, icons + '195.png')
+    add_video_item('http://hls01-03.az.myvideo.az/hls-live/livepkgr/tv8/tv8/tv8.m3u8?seyirturk=fb:simpletvipadresleri3',{ 'title': 'TV 8'}, icons + 'tv8.png')
+    add_video_item('http://212.224.108.80/S1/HLS_LIVE/kanald/1500/prog_index.m3u8',{ 'title': 'Kanal D'}, icons + '85.png')
+    add_video_item('http://hls01-01.az.myvideo.az/hls-live/livepkgr/atvturk/atvturk/atvturk.m3u8?seyirturk=fb:simpletvipadresleri3',{ 'title': 'ATV'}, icons + '98.png')
     add_video_item('http://hls.turkuvazgroup.net:1935/minikacocuk/minikacocuk3/playlist.m3u8',{ 'title': 'minica Cocuc'}, icons + 'minika.png')
     add_video_item('http://trtcanlitv-lh.akamaihd.net/i/TRTHD_1@182045/master.m3u8',{ 'title': 'TRT'}, icons + '101.png')
     add_video_item('http://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8',{ 'title': 'TRT 1'}, icons + '13.png')

@@ -64,8 +64,8 @@ def playginico():
 
 def main():
     add_video_item('http://origin.live.web.tv.streamprovider.net/streams/7acfc999bbde179fc45f18506125345f_live_0_0/index.m3u8',{ 'title': 'Star TV'}, icons + '83.png')
-    add_video_item('http://hd.yayin3.canlitv.mobi:7777/ShowTV_HD/ShowTV_High.m3u8',{ 'title': 'Show TV'}, icons + '96.png')
-    add_video_item('http://hd.yayin3.canlitv.mobi:7777/FoxTurkiye_HD/FoxTurkiye_High.m3u8',{ 'title': 'Fox Turk'}, icons + '195.png')
+    add_video_item('http://bit.do/Showtv',{ 'title': 'Show TV'}, icons + '96.png')
+    add_video_item('http://bit.do/kanalfox',{ 'title': 'Fox TV'}, icons + '195.png')
     add_video_item('http://hd.yayin3.canlitv.mobi:7777/TV8_HD/TV8_High.m3u8',{ 'title': 'TV 8'}, icons + 'tv8.png')
     add_video_item('http://nimlive1.giniko.com/kanald/kanald.stream/playlist.m3u8---85xxx',{ 'title': 'Kanal D'}, icons + '85.png')
     add_video_item('http://nimlive1.giniko.com/atvtv/atvtvtv.stream/playlist.m3u8---98xxx',{ 'title': 'a TV'}, icons + '98.png')

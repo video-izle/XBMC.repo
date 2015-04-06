@@ -42,7 +42,7 @@ def ginico(url):
     else: return url
 	
 def add_video_item(url, infolabels, img=''):
-    url = 'plugin://plugin.video.VideoIzleIPTV-DE/?playtrk=' + url + '***' + infolabels['title'] + '***' + img
+    url = 'plugin://plugin.video.VideoIzleIPTV-DE/?oynat=' + url + '***' + infolabels['title'] + '***' + img
     listitem = xbmcgui.ListItem(infolabels['title'], iconImage=img, thumbnailImage=img)
     listitem.setInfo('video', infolabels)
     listitem.setProperty('IsPlayable', 'false')
@@ -51,7 +51,7 @@ def add_video_item(url, infolabels, img=''):
 	
 def playginico():
     xbmcPlayer = xbmc.Player()
-    idx = mode.replace("?playtrk=", "").replace("###", "|").replace("#x#", "?").replace("#h#", "http://").split('***')
+    idx = mode.replace("?oynat=", "").replace("###", "|").replace("#x#", "?").replace("#h#", "http://").split('***')
     xbmc.executebuiltin('XBMC.Notification('+idx[1]+' , Kanal yükleniyor... ,5000,'+idx[2]+')')
     listitem = xbmcgui.ListItem( idx[1], iconImage=idx[2], thumbnailImage=idx[2])
     playlist = xbmc.PlayList( xbmc.PLAYLIST_VIDEO )
@@ -131,7 +131,7 @@ def main():
 
     xbmcplugin.endOfDirectory(plugin_handle)
 
-if 'playtrk' in mode:
+if 'oynat' in mode:
     playginico()
 else:
     main()

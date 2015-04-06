@@ -2,8 +2,8 @@
 # please visit 
 
 import xbmc,xbmcgui,xbmcplugin,sys
-icons = xbmc.translatePath("special://home/addons/plugin.video.VideoIzleIPTV-DE/resources/icons/")
-icon = xbmc.translatePath("special://home/addons/plugin.video.VideoIzleIPTV-DE/icon.png")
+icons = xbmc.translatePath("special://home/addons/plugin.video.TURKizle/resources/icons/")
+icon = xbmc.translatePath("special://home/addons/plugin.video.TURKizle/icon.png")
 plugin_handle = int(sys.argv[1])
 mode = sys.argv[2]
 
@@ -42,7 +42,7 @@ def ginico(url):
     else: return url
 	
 def add_video_item(url, infolabels, img=''):
-    url = 'plugin://plugin.video.VideoIzleIPTV-DE/?oynat=' + url + '***' + infolabels['title'] + '***' + img
+    url = 'plugin://plugin.video.TURKizle/?oynat=' + url + '***' + infolabels['title'] + '***' + img
     listitem = xbmcgui.ListItem(infolabels['title'], iconImage=img, thumbnailImage=img)
     listitem.setInfo('video', infolabels)
     listitem.setProperty('IsPlayable', 'false')

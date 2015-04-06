@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.TURKizle" name="[COLOR beige]TÜRKizle[/COLOR][COLOR red]IPTV[/COLOR]" version="0.0.2" provider-name="TURKizle">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>TÜRKizle IPTV</summary>
-    <description>YÜKSEK KALİTEDE İPTV</description>
-  </extension>
-</addon>
-
-	<addon
-        id="repository.TURKizle"
-        name="TURKizle Repository"
-        version="0.0.3"
+	<addon 
+        id="repository.TURKizle" 
+        name="TURKizle Repository" 
+        version="0.0.3" 
         provider-name="TURKizle">
 		<extension point="xbmc.addon.repository" name="TURKizle Repository">
 			<info compressed="false">https://raw.github.com/video-izle/XBMC.repo/master/addons.xml</info>
@@ -36,4 +20,3 @@
             <website>http://kodi.video-izle.tv</website>
 		</extension>
 	</addon>
-</addons>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-  <!-- General -->
-  <category label="001">
-		<setting id="download-folder" type="folder" source="files" label="Indirme Klasoru"  option="writeable" default=""/>
-  </category>
-</settings>

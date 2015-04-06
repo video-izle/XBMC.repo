@@ -99,13 +99,13 @@ def main():
     add_video_item('http://livetr.gostream.nl/ulketvhq/ulketvhq/hasbahca.m3u8',{ 'title': ' ULKE TV HD '}, icons + '1.png')
     add_video_item('http://canli.tvnet.tv.tr/hls-live/tvnet/_definst_/liveevent/livestream.m3u8',{ 'title': ' TV NET '}, icons + '1.png')	
     add_video_item('http://cine5.mobil.cubecdn.net/cine5/stream_1.m3u8',{ 'title': ' CINE5 '}, icons + '1.png')	
-    add_video_item('http://sol.trtcdn.com/tv/trtdiyanet/smil:trtdiyanet.smil/hasbahca.m3u8 ',{ 'title': ' TRT DIYANET '}, icons + '1.png')
-    add_video_item('http://livetr.gostream.nl/mekke/mekke/hasbahca.m3u8 ',{ 'title': ' KABE TV '}, icons + '1.png')
+    add_video_item('http://sol.trtcdn.com/tv/trtdiyanet/smil:trtdiyanet.smil/hasbahca.m3u8',{ 'title': ' TRT DIYANET '}, icons + '1.png')
+    add_video_item('http://livetr.gostream.nl/mekke/mekke/hasbahca.m3u8',{ 'title': ' KABE TV '}, icons + '1.png')
     add_video_item('http://livetr.gostream.nl/medine/medine/hasbahca.m3u8 ',{ 'title': ' MEDINE TV '}, icons + '1.png')
-    add_video_item(' rtmp://sol.trtcdn.com/tv/trtarapca/mp4:trtarapca_3 ',{ 'title': ' TRT ARAPCA '}, icons + '1.png')
-    add_video_item(' rtmp://yayin.dosttv.com/dosttv/dosttv2 ',{ 'title': ' DOST TV '}, icons + '1.png')
-    add_video_item('http://semerkandglb.mediatriple.net:1935/semerkandliveedge/semerkand1/Playlist.m3u8 ',{ 'title': ' SEMERKAND HD '}, icons + '1.png')
-    add_video_item('http://yayin8.canliyayin.org:1935/hilaltv/hilaltv/HasBahCa.m3u8 ',{ 'title': ' HILAL TV '}, icons + '1.png')	
+    add_video_item('rtmp://sol.trtcdn.com/tv/trtarapca/mp4:trtarapca_3',{ 'title': ' TRT ARAPCA '}, icons + '1.png')
+    add_video_item('rtmp://yayin.dosttv.com/dosttv/dosttv2',{ 'title': ' DOST TV '}, icons + '1.png')
+    add_video_item('http://semerkandglb.mediatriple.net:1935/semerkandliveedge/semerkand1/Playlist.m3u8',{ 'title': ' SEMERKAND HD '}, icons + '1.png')
+    add_video_item('http://yayin8.canliyayin.org:1935/hilaltv/hilaltv/HasBahCa.m3u8',{ 'title': ' HILAL TV '}, icons + '1.png')	
     add_video_item('mms://yayin7.canliyayin.org/sinema',{ 'title': 'Sinema 1'}, icon)
     add_video_item('mms://yayin7.canliyayin.org/sinema1',{ 'title': 'Sinema 2'}, icon)
     add_video_item('mms://yayin7.canliyayin.org/sinema2',{ 'title': 'Sinema 3'}, icon)
@@ -117,7 +117,7 @@ def main():
     add_video_item('http://212.224.108.80/S1/HLS_LIVE/kanald/1500/prog_index.m3u8',{ 'title': ' KANALD HD '}, icons + '1.png')
     add_video_item('http://hd.yayin3.canlitv.mobi:7777/FoxTurkiye_HD/FoxTurkiye_High.m3u8',{ 'title': ' FOX TV HD '}, icons + '1.png')
     add_video_item('http://livetr.gostream.nl/kanal7hq/kanal7hq/chunklist_w1106540671.m3u8',{ 'title': ' KANAL7 HD '}, icons + '1.png')
-    add_video_item('http://hls01-08.az.myvideo.az/hls-live/livepkgr/ntvspor/ntvspor/ntvspor.m3u8?seyirturk=fb:simpletvipadresleri3 ',{ 'title': ' NTV SPOR '}, icons + '1.png')
+    add_video_item('http://hls01-08.az.myvideo.az/hls-live/livepkgr/ntvspor/ntvspor/ntvspor.m3u8?seyirturk=fb:simpletvipadresleri3',{ 'title': ' NTV SPOR '}, icons + '1.png')
 	
 
 

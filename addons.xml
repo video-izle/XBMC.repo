@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.TURKizle" name="[COLOR beige]TÜRKizle[/COLOR][COLOR red]IPTV[/COLOR]" version="0.0.3" provider-name="TURKizle">
+<addon id="plugin.video.TURKizle" name="[COLOR beige]TÜRKizle[/COLOR][COLOR red] IPTV[/COLOR]" version="0.0.4" provider-name="TURKizle">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
